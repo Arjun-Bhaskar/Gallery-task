@@ -1,0 +1,299 @@
+body{
+    flex-wrap: wrap;
+}
+header{
+    position: fixed;
+    width: 100%;
+    padding: 10px;
+    top: 0px;
+    left: 0px;
+    background-color: black;
+}
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+header>nav>a{
+    color: #fff;
+    padding: 0.5rem 3rem;
+    text-decoration: none;
+}
+header>nav>a:hover{
+    background-color: antiquewhite;
+    color: #000;
+}
+
+/* -------------------------------------- */
+
+#div2{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 60px;
+    box-shadow: 0px 6px 10px #eee;
+    height: 900px;
+    
+    gap: 1rem;
+    justify-content: space-evenly;
+}
+#div2 > div{
+    background-color: red;
+    flex: 1;
+    flex-basis: 300px;
+    border-radius: 20px;
+    /* width: 200px; */
+    height: 300px;
+    background-size: cover;
+    
+    background-position: center;
+}
+#div2 > div:hover{
+    transform: scale(1.2);
+    transition: all 0.3s ease;
+}
+#div2>.img1{
+    
+    background-image: url(./Image/Nature/beautiful-scenery-road-forest-with-lot-colorful-autumn-trees_181624-30942.jpg);
+    
+}
+#div2>.img2{
+    background-image: url(./Image/Nature/1-nature-photography-spring-season-mumtazshamsee.jpg);
+}
+#div2>.img3
+{
+    background-image: url(./Image/Nature/3-nature-wallpaper-mountain.jpg);
+}
+#div2>.img4{
+    background-image: url(./Image/Nature/8192Yt4zAfL._SL1500_.jpg);
+}
+#div2>.img5{
+    background-image: url(./Image/Nature/download.jpg)
+}
+#div2>.img6{
+    background-image: url(./Image/Nature/flowers-276014__340.jpg);
+}
+#div2>.img7{
+    background-image: url(./Image/Nature/images.jpg);
+}
+#div2>.img8{
+    background-image: url(./Image/Nature/stock-photo-142984111.jpg);
+}
+#div2>.img9{
+    background-image: url(./Image/Nature/tree-736885__480.jpg);
+}
+
+/* -------------------------------------- */
+
+#div3{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 60px;
+    box-shadow: 0px 6px 10px #eee;
+    height: 900px;
+    padding-top: 50px;
+    gap: 1rem;
+    justify-content: space-evenly;
+}
+#div3 > div{
+    background-color: red;
+    flex: 1;
+    flex-basis: 300px;
+    border-radius: 20px;
+    /* width: 200px; */
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+}
+#div3 > div:hover{
+    transform: scale(1.2);
+    transition: all 0.3s ease;
+}
+#div3 >.img1{
+    background-image: url(./Image/Animal/960x0.jpg);
+}
+#div3 >.img2{
+    background-image: url(./Image/Animal/circus_animal_abuse.jpg);
+}
+#div3 >.img3{
+    background-image: url(./Image/Animal/depositphotos_20146623-stock-photo-tigers-face.jpg);
+}
+#div3 >.img4{
+    background-image: url(./Image/Animal/eastern-chimpanzee-male-fudge-aged-17-years-portrait.jpg);
+}
+#div3 >.img5{
+    background-image: url(./Image/Animal/images.jpg);
+}
+#div3 >.img6{
+    background-image: url(./Image/Animal/istockphoto-1059152858-612x612.jpg);
+}
+#div3 >.img7{
+    background-image: url(./Image/Animal/neglected-horse-49265_0.jpg);
+}
+#div3 >.img8{
+    background-image: url(./Image/Animal/the-special-will-see-dave-salmoni-animal-planets-big-cat-expert-talking-to-a-number-of-experts-to-find-out-how-covid-19-is-affecting-animals-and-what-pet-owners-can-do.jpg);
+}
+#div3 >.img9{
+    background-image: url(./Image/Animal/stock-image-raccoon.jpg);
+}
+
+/* -------------------------------------- */
+
+#div4{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 60px;
+    box-shadow: 0px 6px 10px #eee;
+    height: 900px;
+    padding-top: 50px;
+    gap: 1rem;
+    justify-content: space-evenly;
+}
+#div4 > div{
+    background-color: red;
+    flex: 1;
+    flex-basis: 300px;
+    border-radius: 20px;
+    /* width: 200px; */
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+}
+#div4 > div:hover{
+    transform: scale(1.2);
+    transition: all 0.3s ease;
+}
+#div4 >.img1{
+    background-image: url(./Image/Car/20210708102327_Aventador_ultimae.jpg);
+}
+#div4 >.img2{
+    background-image: url(./Image/Car/bmw-ix.jpg);
+}
+#div4 >.img3{
+    background-image: url(./Image/Car/download.jpg);
+}
+#div4 >.img4{
+    background-image: url(./Image/Car/maxresdefault.jpg);
+}
+#div4 >.img5{
+    background-image: url(./Image/Car/pexels-pixabay-358070.jpg);
+}
+#div4 >.img6{
+    background-image: url(./Image/Car/photo-1494976388531-d1058494cdd8.jpg);
+}
+#div4 >.img7{
+    background-image: url(./Image/Car/photo-1525609004556-c46c7d6cf023.jpg);
+}
+#div4 >.img8{
+    background-image: url(./Image/Car/rrmc-homepage-ghost-share-image.jpg);
+}
+#div4 >.img9{
+    background-image: url(./Image/Car/se-image-fbf28c7252f24bee40d73108cc3bad71.jpg);
+}
+
+/* -------------------------------------- */
+
+#div5{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 60px;
+    box-shadow: 0px 6px 10px #eee;
+    height: 900px;
+    padding-top: 50px;
+    gap: 1rem;
+    justify-content: space-evenly;
+}
+#div5 > div{
+    background-color: red;
+    flex: 1;
+    flex-basis: 300px;
+    border-radius: 20px;
+    /* width: 200px; */
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+}
+#div5 > div:hover{
+    transform: scale(1.2);
+    transition: all 0.3s ease;
+}
+#div5 >.img1{
+    background-image: url(./Image/Watches/1629304183-90_PVEVH008-P0020_PNUL_20_GrecaLogoWatch-Watches-versace-online-store_4_2.jpg);
+}
+#div5 >.img2{
+    background-image: url(./Image/Watches/48_jaeger_lecoultre_hybris.jpg);
+}
+#div5 >.img3{
+    background-image: url(./Image/Watches/aa10f6_e78886df24c8420da8891e20902d688a_mv2.jpg);
+}
+#div5 >.img4{
+    background-image: url(./Image/Watches/be488403c95976382f97d58da0f776e5af796c8307df7016cdb2403bdf8e0b9e.jpg);
+}
+#div5 >.img5{
+    background-image: url(./Image/Watches/e1a6e664f8e934f759a78f54a9555b8a.jpg);
+}
+#div5 >.img6{
+    background-image: url(./Image/Watches/images.jpg);
+}
+#div5 >.img7{
+    background-image: url(./Image/Watches/m126900-0001_collection_upright_portrait.jpg);
+}
+#div5 >.img8{
+    background-image: url(./Image/Watches/mobile-mast-2.jpg);
+}
+#div5 >.img9{
+    background-image: url(./Image/Watches/Rolex-Submariner-2.jpg);
+}
+
+/* -------------------------------------- */
+
+#div6{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 60px;
+    box-shadow: 0px 6px 10px #eee;
+    height: 900px;
+    padding-top: 50px;
+    gap: 1rem;
+    justify-content: space-evenly;
+}
+#div6 > div{
+    background-color: red;
+    flex: 1;
+    flex-basis: 300px;
+    border-radius: 20px;
+    /* width: 200px; */
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+}
+#div6 > div:hover{
+    transform: scale(1.2);
+    transition: all 0.3s ease rotate;
+}
+#div6 >.img1{
+    background-image: url(./Image/Bikes/01-Neiman-Marcus-Limited-Edition-Fighter.jpg);
+}
+#div6 >.img2{
+    background-image: url(./Image/Bikes/benelli-new-bn-302r.jpg);
+}
+#div6 >.img3{
+    background-image: url(./Image/Bikes/BMW-M-1000-RR-Price-India.jpg);
+}
+#div6 >.img4{
+    background-image: url(./Image/Bikes/c351f5d3cdcf553f302dbf8d7987323f.jpg);
+}
+#div6 >.img5{
+    background-image: url(./Image/Bikes/CGTrader.jpg);
+}
+#div6 >.img6{
+    background-image: url(./Image/Bikes/images.jpg);
+}
+#div6 >.img7{
+    background-image: url(./Image/Bikes/images\ \(1\).jpg);
+}
+#div6 >.img8{
+    background-image: url(./Image/Bikes/photo-1598209279122-8541213a0387.jpg);
+}
+#div6 >.img9{
+    background-image: url(./Image/Bikes/Royal-Enfield-Classic-500-Stealth-Black-Mileage.jpg);
+}
